@@ -6,8 +6,10 @@ import Image from "next/image";
 import { FiCalendar, FiBookmark } from "react-icons/fi";
 import AddToTodayPlanButton from "@/app/components/Button/addToTodayPlanButton";
 import { SaveForLaterButton } from "@/app/components/Button/saveForLaterButton";
+import WorkOutList from "@/app/components/workoutList/WorkOutList";
+import data from "@/datas/data.json"
 
-const workouts: WorkoutType[] = workoutData;
+ const workouts=data as WorkoutType[]  ;
 
 const DetailsPage = async ({
   params,

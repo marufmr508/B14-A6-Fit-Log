@@ -142,7 +142,7 @@ export const PlanList = () => {
               </h1>
 
               <p className="mt-2 text-gray-400">
-                You haven't added any workouts to today's plan yet.
+                You have not added any workouts to today plan yet.
               </p>
 
               <Link
@@ -184,7 +184,7 @@ export const PlanList = () => {
               </h1>
 
               <p className="mt-2 text-gray-400">
-                You haven't saved any workouts for later yet.
+                You have not saved any workouts for later yet.
               </p>
 
               <Link

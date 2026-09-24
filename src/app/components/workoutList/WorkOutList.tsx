@@ -5,8 +5,9 @@ import  workoutData from "@/datas/data.json"
 import { WorkoutType } from '@/types';
 import Link from 'next/link';
 // import { Link } from 'lucide-react';
+import data from "@/datas/data.json"
 
-const workouts: WorkoutType[] = workoutData;
+const workouts=data as WorkoutType[]  ;
 
 const WorkOutList = () => {
     
